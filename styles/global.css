@@ -1,0 +1,182 @@
+@import url('https://mmwebfonts.comquas.com/fonts/?font=myanmar3');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+html,
+body {
+  background: #292929;
+  padding: 0;
+  margin: 0;
+  font-family: monospace, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.list-page {
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+#addContainer {
+  display: flex;
+  background: rgba(40, 40, 40, 0.8);
+  flex-direction: column;
+  align-items: center;
+  font-family: Myanmar3, Yunghkio;
+  font-size: 12px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 850px;
+  border-radius: 10px;
+  background: rgba(20, 20, 20, 0.8);
+  color: #aaa;
+  padding: 15px;
+}
+
+.headerContainer {
+  position: relative;
+}
+
+.goBackToHomePage {
+  position: absolute;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
+  color: #aaa;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.goBackToHomePage:hover {
+  color: #bbb;
+}
+
+#title {
+  text-align: center;
+  height: 30px;
+  font-size: 16px;
+  border-bottom: 2px solid #f00;
+  margin: 0;
+}
+
+#oo {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='date'],
+select,
+textarea {
+  color: #aaa;
+  background: rgba(50, 50, 50, 0.8);
+  font-size: 12px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+select {
+  padding: 4px;
+  margin-right: 2px;
+}
+
+form > div > div {
+  display: flex;
+  align-items: center;
+}
+
+#fatherName {
+  width: 100%;
+}
+
+/*custom file input*/
+.custom-file-input {
+  outline: none;
+}
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  outline: none;
+  content: 'Add Photo';
+  display: inline-block;
+  background: rgba(40, 40, 40, 0.8);
+  border-radius: 3px;
+  color: #777;
+  font-size: 12px;
+  font-family: monospace;
+  padding: 5px 8px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+/*custom file input*/
+
+input[type='submit'] {
+  width: 50px;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 3px;
+  border: none;
+  background: rgba(40, 40, 40, 0.8);
+  color: #666;
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: 5px;
+  transition: 0.1s;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type='submit']:hover {
+  background: rgba(50, 50, 50, 0.8);
+}
+
+#star {
+  color: #f00;
+}
+
+.list-ol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.footBtn {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 45px;
+  color: #fff;
+  background: rgba(30, 30, 30, 0.6);
+  backdrop-filter: blur(2px);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.footBtn:hover {
+  background: rgba(40, 40, 40, 0.8);
+}
+
+.notAvailable {
+  height: 10px;
+  font-size: 13px;
+  line-height: 10px;
+  color: #666;
+  border-radius: 25px;
+  background: rgba(50, 50, 50, 0.8);
+  padding: 15px;
+}
